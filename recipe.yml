@@ -14,13 +14,14 @@ modules:
   - apt-get update
 
 # Put your custom actions behind this comment
-
+# adding kde.  testing
 - name: example-packages
   type: apt
   source:
     packages:
     - vim
-
+    - kde-full  
+    
 - name: example-commands
   type: shell
   commands:
